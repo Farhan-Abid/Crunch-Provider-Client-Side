@@ -1,28 +1,31 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 
 const InventoryDetail = () => {
-    const [inventory,setInventory] = useState([]);
+    
     const {id} = useParams();
-
-
-
-    const fetchDetails = () => {
-        fetch('inventories.json')
-        .then(res => res.json())
-        .then(data => setInventory(data))
-
-    };
-
+    const [product,setProduct] = useState({});
+    
     useEffect( () => {
-        fetchDetails();
+        const url =`http://localhost:5000/products/${id}`
+        fetch(url)
+        .then(res => res.json())
+        .then(data => setProduct(data));
     }, []);
 
-    console.log(id);
+    console.log(product);
     
     return (
         <div>
-            <h2>Welcome to Inventory Detail: {id}</h2>
+            <h2>Welcome to Inventory Detail: {product._id}</h2>
+            <h2>{product.name}</h2>
+            <h3>{product.description}</h3>
+            <h3>{product.image}</h3>
+            <h3>{product.price}</h3>
+            <h3>{product.quantity}</h3>
+            <h3>{product.supplier}</h3>
+            
             
     
         </div>
