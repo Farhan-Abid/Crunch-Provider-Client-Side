@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Potato Crackers",
+        "price": "10 taka",
+        "description": "POTATO CRACKERS is the leading and most popular snack prepared with combination of wheat and potato. It is a light, crispy snack",
+        "quantity": "200 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/potato.png"
+    },
+    {
+        "id": 2,
+        "name": "MR TWIST",
+        "price": "15 taka",
+        "description": "Mr. TWIST is especially attractive to the youngsters for its unique shape and taste. It is a potato based premium snack with a beautiful twisty shape",
+        "quantity": "100 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/mrtwits.png"
+    },
+    {
+        "id": 3,
+        "name": "ALOOZ",
+        "price": "15 taka",
+        "description": "Alooz Chips Magic Masala is a combination of potatoes and spices. A new range of mouthwatering flavors brings change to your tastebud." ,
+        "quantity": "150 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/alooz.png"
+    },
+    {
+        "id": 4,
+        "name": "RING CHIPS",
+        "price": "10 taka",
+        "description": "RING CHIPS is the first ever crisp introduced in Bangladesh by Bombay Sweets in 1986. Decades later, it is still a favorite. This ring shaped spicy snack will surely satisfy your taste buds.",
+        "quantity": "300 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/ring-chps.png"
+    },
+    {
+        "id": 5,
+        "name": "BOMBAY SWEETS CHANACHUR",
+        "price": "100 taka",
+        "description": "Chanachur is a delicious food eaten as an evening meal in Bangladesh. People of all classes love Chanachur a lot. Bombay Sweets Chanachur 600 gm brings high-quality Chanachur with premium taste",
+        "quantity": "220 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/Normal.png"
+    },
+    {
+        "id": 6,
+        "name": "DALMOOTH",
+        "price": "40 taka",
+        "description": "Bombay Sweets Dalmoth is a delicious tasty savory mix contains nutritional green lentils. Potato crisps and special spices have also been added to create this premium mix.",
+        "quantity": "220 pcs",
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/Dalmoth.png"
+    }
+]
