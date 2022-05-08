@@ -16,20 +16,20 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='text-dark'>Best Service with 100% Priority</h3>
+          <p className='text-dark'>Deal with us to get the best possible deals from crunch mania!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img height={490}
           className="d-block w-100"
-          src="https://image.shutterstock.com/image-photo/potato-chips-on-wooden-background-260nw-465828371.jpg"
+          src="https://cdn.shopify.com/s/files/1/0449/4809/5136/files/snacks-1770x800px.png?v=1602891970"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='text-dark'>Best Crunchies dealer of the town</h3>
+          <p className='text-dark'>We have the recognition to service at the fastest rate possible to you!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,9 +40,9 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3 className='text-dark'>Best Chips dealer of the town</h3>
+          <p className='text-dark'>
+          We have the recognition to service at the fastest rate possible to you!
           </p>
         </Carousel.Caption>
       </Carousel.Item>

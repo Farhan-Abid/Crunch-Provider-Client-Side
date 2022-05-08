@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageInventories = () => {
     const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://limitless-thicket-44655.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [])
@@ -13,8 +13,7 @@ const ManageInventories = () => {
   const handleProductDelete = (id) => {
     const proceed = window.confirm('are you sure you want to delete?'); 
     if(proceed){
-        console.log('deleting user with id', id);
-        const url = `http://localhost:5000/products/${id}`;
+        const url = `https://limitless-thicket-44655.herokuapp.com/products/${id}`;
         fetch(url, {
             method : 'DELETE'
         })

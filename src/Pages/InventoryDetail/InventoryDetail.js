@@ -8,7 +8,7 @@ const InventoryDetail = () => {
     const [product, setProduct] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/products/${id}`
+        const url = `https://limitless-thicket-44655.herokuapp.com/products/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data));
@@ -22,7 +22,7 @@ const InventoryDetail = () => {
         const updatedProduct = { name, email };
 
         // send data to the server
-        const url = `http://localhost:5000/products/${id}`
+        const url = `https://limitless-thicket-44655.herokuapp.com/products/${id}`
         fetch(url, {
             method: 'PUT',
             headers: {
