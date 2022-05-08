@@ -1,6 +1,7 @@
 import { Button } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import './ManageInventories.css';
 
 const ManageInventories = () => {
     const [products, setProducts] = useState([]);
@@ -32,15 +33,16 @@ const ManageInventories = () => {
         <div>
             <h2>All Products</h2>
       {products.map((product) => (
-        <div className='d-flex mt-5 container'>
+        <div className='d-flex mt-5 container manage-inventories'>
           <img src={product.img} alt="" />
           <div>
-          <h2>{product.name}</h2>
+          <h2 className='bg-info rounded'>{product.name}</h2>
           <br></br>
           <h2>Price: {product.price}</h2>
           <h2>Quantity: {product.quantity}</h2>
+          <h2>Description: {product.description}</h2>
           <br></br>
-          <button onClick={()=>handleProductDelete(product._id)}className='bg-info'>Delete</button>
+          <button onClick={()=>handleProductDelete(product._id)}className='bg-info rounded'>Delete</button>
           </div>
 
         </div>

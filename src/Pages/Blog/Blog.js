@@ -3,8 +3,8 @@ import './Blog.css';
 
 const Blog = () => {
     return (
-        <div>
-            <h2>Welcome to our bLog</h2>
+        <div className='container'>
+            <h2 className='mb-5'>Welcome to our bLog</h2>
             <div className='blog1'>
                 <h1>Difference between javascript and nodejs</h1>
                 <p>JavaScript is a language that runs inside web browsers as part of documents loaded by the browser. It gives behaviour to your pages (HTML gives semantic structure, CSS gives form or look and feel). However nothing ought to restrict JavaScript to run solely inside the browser. Now being an interpreted language, it needs an interpreter to run. V8 is the Google Chrome JS engine and 'node' is a front-end to it that can be used to run JavaScript scripts outside the browser. Node.js or just Node usually refers to a collection of objects and methods available to your JavaScript code when run in V8 or through the node interpreter. It is a JavaScript libray cum runtime.</p>
