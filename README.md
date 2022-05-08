@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Site Live Link
 
+https://warehouse-management-systemapp.web.app/
 
 ## Website Specialities
 

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
+import './MyItems.css';
 const axios = require('axios');
+
 
 const MyItems = () => {
     const [user] = useAuthState(auth);
@@ -34,19 +36,21 @@ const MyItems = () => {
       
     };
         return (
-            <div>
+            <div className='container'>
                 <h2>All Products</h2>
           {products.map((product) => (
-            <div className='d-flex mt-5 container'>
+              
+            <div className='d-flex mt-5 myitems'>
               <img src={product.img} alt="" />
               <div>
-              <h2>{product.name}</h2>
+              <h2 className='bg-info rounded'>{product.name}</h2>
               <br></br>
               <h2>Price: {product.price}</h2>
               <h2>Quantity: {product.quantity}</h2>
               <br></br>
-              <button onClick={()=>handleProductDelete(product._id)}className='bg-info'>Delete</button>
+              <button className='bg-info rounded' onClick={()=>handleProductDelete(product._id)}>Delete</button>
               </div>
+              
     
             </div>
           ))}
