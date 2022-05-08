@@ -11,7 +11,7 @@ const UpdateInventory = () => {
         // send data to the server
 
         fetch('http://localhost:5000/user', {
-  method: 'PUT', // or 'PUT'
+  method: 'PUT',
   headers: {
     'Content-Type': 'application/json',
   },

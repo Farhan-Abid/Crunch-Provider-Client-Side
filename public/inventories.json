@@ -2,55 +2,91 @@
     {
         "id": 1,
         "name": "Potato Crackers",
-        "price": "10 taka",
+        "price": 10,
         "description": "POTATO CRACKERS is the leading and most popular snack prepared with combination of wheat and potato. It is a light, crispy snack",
-        "quantity": "200 pcs",
+        "quantity": 200,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/potato.png"
     },
     {
         "id": 2,
         "name": "MR TWIST",
-        "price": "15 taka",
+        "price": 15,
         "description": "Mr. TWIST is especially attractive to the youngsters for its unique shape and taste. It is a potato based premium snack with a beautiful twisty shape",
-        "quantity": "100 pcs",
+        "quantity": 100,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/mrtwits.png"
     },
     {
         "id": 3,
         "name": "ALOOZ",
-        "price": "15 taka",
+        "price": 15,
         "description": "Alooz Chips Magic Masala is a combination of potatoes and spices. A new range of mouthwatering flavors brings change to your tastebud." ,
-        "quantity": "150 pcs",
+        "quantity": 150,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/alooz.png"
     },
     {
         "id": 4,
         "name": "RING CHIPS",
-        "price": "10 taka",
+        "price": 10,
         "description": "RING CHIPS is the first ever crisp introduced in Bangladesh by Bombay Sweets in 1986. Decades later, it is still a favorite. This ring shaped spicy snack will surely satisfy your taste buds.",
-        "quantity": "300 pcs",
+        "quantity": 300,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/ring-chps.png"
     },
     {
         "id": 5,
         "name": "BOMBAY SWEETS CHANACHUR",
-        "price": "100 taka",
+        "price": 100,
         "description": "Chanachur is a delicious food eaten as an evening meal in Bangladesh. People of all classes love Chanachur a lot. Bombay Sweets Chanachur 600 gm brings high-quality Chanachur with premium taste",
-        "quantity": "220 pcs",
+        "quantity": 220,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/Normal.png"
     },
     {
         "id": 6,
         "name": "DALMOOTH",
-        "price": "40 taka",
+        "price": 40,
         "description": "Bombay Sweets Dalmoth is a delicious tasty savory mix contains nutritional green lentils. Potato crisps and special spices have also been added to create this premium mix.",
-        "quantity": "220 pcs",
+        "quantity": 220,
         "supplier": "bombay-sweets",
         "img": "https://www.bombaysweetsbd.com/images/products/Dalmoth.png"
+    },
+    {
+        "id": 7,
+        "name": "JHALMURI",
+        "price": 10,
+        "description": "Potato crisps and special spices have also been added to create this premium mix.It’s a popular spicy ethnic snack of Bangladesh mixed with fried Peanuts and some other ingredients of Chanachur.",
+        "quantity": 220,
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/Jhal-Muri.png"
+    },
+    {
+        "id": 8,
+        "name": "NACHOZ",
+        "price": 15,
+        "description": "Always a great snacking experience with a different taste of a perfect Triangular Tortilla chips named “Nachos” made from Corn, Potato and Rice. Tastes like an authentic restaurant chips, Nachoz is available in two attractive flavors- Spicy Nacho cheese, Chulney & Lime",
+        "quantity": 150,
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/NACHO-CHUTNEY.png"
+    },
+    {
+        "id": 9,
+        "name": "MR PASTA",
+        "price": 40,
+        "description": "Try out the yumminess of this innovative instant pasta blended blissfully with spicy flavours. It can be easily prepared in 3 minutes. You simply cannot resist the mouth watering Chili Chicken or Tangy Tomato with a twist. Delight yourself with this healthy and delicious instant pasta today at home, office or outdoors!",
+        "quantity": 180,
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/pasta-tangy-tomato.png"
+    },
+    {
+        "id": 10,
+        "name": "BBQ CHANACHUR",
+        "price": 40,
+        "description": "The barbeque flavored chanachur is another new addition to Bombay Sweets famous Namkeen line. It has a nice smokey flavor which is unique and trendy.",
+        "quantity": 200,
+        "supplier": "bombay-sweets",
+        "img": "https://www.bombaysweetsbd.com/images/products/BBQ.png"
     }
 ]

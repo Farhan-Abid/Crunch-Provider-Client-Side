@@ -20,7 +20,7 @@ const Inventories = () => {
                 inventories.map(inventory => <Inventory
                 key={inventory.id} 
                 inventory={inventory}
-                ></Inventory>)
+                ></Inventory>).slice(0,6)
             }
 
             </div>
