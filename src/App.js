@@ -10,7 +10,7 @@ import InventoryDetail from './Pages/InventoryDetail/InventoryDetail';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
-import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
+
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import ManageInventories from './Pages/ManageInventories/ManageInventories';
 import AddItem from './Pages/AddItem/AddItem';
@@ -19,7 +19,7 @@ import MyItems from './Pages/MyItems/MyItems';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font">
       <Header></Header>
       <Routes>
         <Route path='/' element={<WareHouseHome></WareHouseHome>}></Route>

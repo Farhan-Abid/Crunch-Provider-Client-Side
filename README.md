@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+# Crunch Provider
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Site Live Link
 
-In the project directory, you can run:
+
+## Website Specialities
+
+* A Full Stack website regarding snacks delivery service
+* Detailed honest reviews of users and service takers
+* a Login section which contains registration sections with google and signing.
+* A detailed Blog Section whoch contains some questions and answers
+* Website contains manage inventory and add items where user can add/delete items
+
+## Technologies used 
+
+***
+
+* HTML
+* CSS
+* React JS
+* Firebase
+* Bootstrap
+* Node
+* MongoDB
 
 ### `npm start`
 
