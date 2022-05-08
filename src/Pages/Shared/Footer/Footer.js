@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='mt-5'>
             <footer>
-                <p><small>Copyright @ 2022</small></p>
+                <p><small>Copyright by Shah Farhan Abid @ 2022</small></p>
             </footer>
         </div>
     );
